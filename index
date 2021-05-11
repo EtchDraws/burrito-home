@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title>The Burritoverse</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="icon" href="https://cdn.icon-icons.com/icons2/2113/PNG/512/burrito_icon_131069.png">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
+ <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="style">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://c0.wallpaperflare.com/preview/797/1015/608/burrito-chicken-close-up-delicious.jpg");
+  min-height: 60%;
+}
+
+#myDIV {
+  position: absolute;
+  left: 0;
+  width: 100px;
+  height: 20px;
+  background-color: green;
+  color: white;
+  animation: mymove 5s infinite;
+  opacity: 1;
+}
+@keyframes mymove {
+  50% {left: 1800px;}
+</style>
+
+
+<header class="bgimg w3-display-container w3-" id="home">
+  
+  <div class="w3-display-middle w3-center">
+     <span class="w3-text-blue w3-animate-opacity" style="font-size:160px"><br><br><br><br>The<br>Burritoverse</span>
+  <h1 class="w3-text-blue w3-display-middle w3-center"><strong><br><br><br><br>Welcome<br>To</strong></h1>
+ 
+  </div>
+</header>
+<body>
+<h3 class="1t"> This is where you can play games created by Torsak's class! </h3>
+</body>
+<footer>
+ <div id="myDIV">
+     WELCOME
+    </div>
+</footer>
+
+
